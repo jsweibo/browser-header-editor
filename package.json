@@ -1,0 +1,33 @@
+{
+  "name": "browser-header-editor",
+  "version": "1.0.0",
+  "description": "It can edit HTTP headers",
+  "private": true,
+  "scripts": {
+    "build": "gulp",
+    "lint": "eslint src",
+    "prettier": "prettier --write src",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/browser-header-editor.git"
+  },
+  "keywords": [
+    "browser-header-editor"
+  ],
+  "author": "jsweibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsweibo/browser-header-editor/issues"
+  },
+  "homepage": "https://github.com/jsweibo/browser-header-editor#readme",
+  "devDependencies": {
+    "delete": "^1.1.0",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gulp": "^4.0.2",
+    "prettier": "^2.8.8"
+  }
+}

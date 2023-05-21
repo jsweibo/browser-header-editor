@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Header Editor",
+  "description": "It can edit HTTP headers",
+  "version": "1.0.0",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": ["js/default-settings.js", "background_script.js"]
+  },
+  "browser_action": {
+    "default_title": "Open Options"
+  },
+  "options_ui": {
+    "page": "options/index.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "unlimitedStorage",
+    "downloads"
+  ]
+}
